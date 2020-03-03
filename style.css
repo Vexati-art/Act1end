@@ -11,7 +11,7 @@ body {
 #content{
 	width:100%;
 	min-height: 900px;
-	text-align: center;
+	
 }
 
 ul {
@@ -32,7 +32,7 @@ li {
 li a {
   display: block;
   color: #dfcdc3;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
 }
