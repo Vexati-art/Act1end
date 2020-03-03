@@ -1,0 +1,147 @@
+body {
+ background-image: url("1.jpg");
+ font-family: Arial;
+}
+#container{
+	width:1000px;
+	margin: 0 auto;
+	min-height:700px;
+	background-color: #82f3f5;
+}
+#content{
+	width:100%;
+	min-height: 900px;
+}
+ul {
+	
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f76239;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #dfcdc3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e38732;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #82f3f5}
+
+th {
+  background-color: #f76239	;
+  color: black;
+}
+h1 {
+	text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #82f3f5}
+
+th {
+  background-color: #f76239;
+  color: white;
+}
+h1 {
+	text-align: left;
+ }
+ * {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  height: 42px;
+  padding: px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #f76239;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline input {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  color: black;
+  cursor: pointer;
+}
+
+.form-inline input:hover {
+  background-color: #f76239;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
