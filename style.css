@@ -11,10 +11,9 @@ body {
 #content{
 	width:100%;
 	min-height: 900px;
-}
-#navbar{
 	text-align: center;
 }
+
 ul {
 	
   list-style-type: none;
