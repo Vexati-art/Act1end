@@ -18,12 +18,7 @@ $value = $list;
           </ul>
       </div>
 
-    <div class="navbar">
-        <a href="index.php?navigation=product">Show</a>
-        <a href="index.php?navigation=categories">Category</a>
-        <a href="index.php?navigation=create">Create</a>
-        <a href="index.php?navigation=delete">Delete</a>
-    </div>
+   
 
 <h2>Product</h2>
 
