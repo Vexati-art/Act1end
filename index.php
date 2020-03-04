@@ -1,5 +1,5 @@
 <?php 
-$navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET['navigation']: '';
+$navigation = (isset($_GET['navi']) && $_GET['navi'] != '') ? $_GET['navi']: '';
 ?>
 <html> 
     <head>
@@ -10,15 +10,15 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
       <div id = "container">
       <div class="navbar">
           <ul>
-        <li><a href="index.php?navigation=product">Products</a> </li>
-        <li><a href="index.php?navigation=categories">Category</a> </li>
-        <li><a href="index.php?navigation=create">Create</a> </li>
+        <li><a href="index.php?navi=product">Products</a> </li>
+        <li><a href="index.php?navi=categories">Category</a> </li>
+        <li><a href="index.php?navi=create">Create</a> </li>
           </ul>
       </div>
 
       <div id = "content">         
       <?php 
-        switch($navigation){
+        switch($navi){
           case 'product':
             require_once 'product.php';
             break;
