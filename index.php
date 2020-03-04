@@ -3,15 +3,16 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
 ?>
 <html> 
     <head>
+     
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-       <div id = "container">
+      <div id = "container">
       <div class="navbar">
-        <ul>
-            <li><a href="index.php?navigation=product">Products</a></li>
-            <li><a href="index.php?navigation=categories">Category</a></li>
-            <li><a href="index.php?navigation=create">Create</a></li>
+          <ul>
+        <li><a href="index.php?navigation=product">Products</a> </li>
+        <li><a href="index.php?navigation=categories">Category</a> </li>
+        <li><a href="index.php?navigation=create">Create</a> </li>
           </ul>
       </div>
 
@@ -30,12 +31,10 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
           case 'details':
             require_once 'product-details.php';
             break;
-         
         }
     ?>
       </div>
 
-      
-        </div>
+     
     </body>
 </html>
