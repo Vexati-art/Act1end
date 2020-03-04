@@ -1,5 +1,5 @@
 <?php 
-$navigation = (isset($_GET['navi']) && $_GET['navi'] != '') ? $_GET['navi']: '';
+$navi = (isset($_GET['navi']) && $_GET['navi'] != '') ? $_GET['navi']: '';
 ?>
 <html> 
     <head>
