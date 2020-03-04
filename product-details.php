@@ -14,7 +14,7 @@ $value = $list;
 
    
 
-<h2>Product</h2>
+<h1>Product</h1>
 
 <table>
     <tr>
