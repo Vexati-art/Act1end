@@ -29,7 +29,7 @@ $navi = (isset($_GET['navi']) && $_GET['navi'] != '') ? $_GET['navi']: '';
             require_once 'form_create.php';
             break;
           case 'details':
-            require_once 'product-details.php';
+            include ('product-details.php');
             break;
         }
     ?>
