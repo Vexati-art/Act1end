@@ -15,7 +15,7 @@ if(isset($_POST['search'])){
    $list = $data['records'];
 }
 ?>
-
+<Marquee><h1> Product List </h1></Marquee>
 
 
 <form class="example" action="index.php?navi=product" method="POST" style="margin:auto;max-width:300px">
