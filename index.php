@@ -30,8 +30,7 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
           case 'details':
             require_once 'product-details.php';
             break;
-          default:
-            require_once 'index.php';
+         
         }
     ?>
       </div>
