@@ -51,13 +51,15 @@ th, td {
  
 }
 
-tr:nth-child(even){background-color: #82f3f5}
-
+tr:nth-child(even){
+	background-color: #82f3f5;
+	margin: auto;
+}
+	
 th {
   background-color: #f76239	;
   color: black;
-  margin: auto;
-}
+ 
 h1 {
 	text-align: left;
   border-collapse: collapse;
@@ -70,12 +72,15 @@ th, td {
  
 }
 
-tr:nth-child(even){background-color: #82f3f5}
+tr:nth-child(even){
+	background-color: #82f3f5;
+	margin: auto;
+}
 
 th {
   background-color: #f76239;
   color: white;
-  margin: auto;
+  
 }
 h1 {
 	text-align: left;
