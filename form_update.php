@@ -16,10 +16,10 @@
 
 
     <div class="navbar">
-        <a href="index.php?navigation=product">Show</a>
-        <a href="index.php?navigation=categories">Category</a>
-        <a href="index.php?navigation=create">Create</a>
-        <a href="index.php?navigation=delete">Delete</a>
+        <a href="index.php?navi=product">Show</a>
+        <a href="index.php?navi=categories">Category</a>
+        <a href="index.php?navi=create">Create</a>
+        <a href="index.php?navi=delete">Delete</a>
     </div>
 	<h1> Update</h1>
 <form action="pro_update.php?id=<?php echo $id ?>" method="POST">
