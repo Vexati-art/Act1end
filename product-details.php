@@ -10,13 +10,7 @@ $value = $list;
     <head>  
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-	 <div class="navbar">
-        <ul>
-            <li><a href="index.php?navi=product">Products</a></li>
-            <li><a href="index.php?navi=categories">Category</a></li>
-            <li><a href="index.php?navi=create">Create</a></li>
-          </ul>
-      </div>
+	
 
    
 
