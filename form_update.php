@@ -16,7 +16,6 @@
 
 <div class="container">
     <div class="navbar">
-        <a href="index.php?navi=categories">Category</a>
         <a href="index.php?navi=create">Create</a>
         <a href="index.php?navi=delete">Delete</a>
     </div>
