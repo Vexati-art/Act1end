@@ -31,6 +31,9 @@ $navi = (isset($_GET['navi']) && $_GET['navi'] != '') ? $_GET['navi']: '';
           case 'details':
             include ('product-details.php');
             break;
+          case 'formup':
+            include ('form_update.php');
+            break;
         }
     ?>
       </div>
