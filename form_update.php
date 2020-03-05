@@ -15,10 +15,7 @@
     </head>
 
 <div class="container">
-    <div class="navbar">
-        <a href="index.php?navi=create">Create</a>
-        <a href="index.php?navi=delete">Delete</a>
-    </div>
+  
 	<h1> Update Product</h1>
 <form action="pro_update.php?id=<?php echo $id ?>" method="POST">
 	<input type="text" name="name" value="<?php echo $result['name'];?>"/>
