@@ -20,7 +20,7 @@
         <a href="index.php?navi=delete">Delete</a>
     </div>
 	<h1> Update Product</h1>
-<form class="form-inline" action="pro_create.php" method="POST">
+<form class="form-inline" action="pro_update.php" method="POST">
 <input type="text" name="name" placeholder="name"/>
 <input type="text" name="description" placeholder="description"/>
 <input type="text" name="price" placeholder="price"/>
@@ -37,5 +37,5 @@
 <input type="submit" name="submit" value="submit"/>
 
 </form>
-
+	</div>
 </html>
