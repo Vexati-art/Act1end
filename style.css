@@ -98,7 +98,7 @@ form.example input[type=text] {
   background: #f1f1f1;
 }
 
-form.example button {
+form.example input {
   float: left;
   width: 25%;
   height: 50px;
@@ -111,7 +111,7 @@ form.example button {
   cursor: pointer;
 }
 
-form.example button:hover {
+form.example input:hover {
   background: #f76239;
 }
 
