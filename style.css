@@ -83,7 +83,7 @@ th {
   
 }
 h1 {
-	text-align: center;
+	text-align: left;
  }
  * {
   box-sizing: border-box;
@@ -94,7 +94,7 @@ form.example input[type=text] {
   font-size: 17px;
   border: 1px solid grey;
   float: left;
-  width: 80%;
+  width: 100%;
   background: #f1f1f1;
 }
 
