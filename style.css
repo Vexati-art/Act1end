@@ -91,6 +91,7 @@ h1 {
 
 form.example input[type=text] {
   padding: 10px;
+  height: 5em;
   font-size: 17px;
   border: 1px solid grey;
   float: left;
@@ -115,7 +116,7 @@ form.example button:hover {
   background: #f76239;
 }
 
-form.example::after {
+form.example button:after {
   content: "";
   clear: both;
   display: table;
