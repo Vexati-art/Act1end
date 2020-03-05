@@ -20,7 +20,7 @@ if(isset($_POST['search'])){
 
 <form class="example" action="index.php?navi=product" method="POST" style="margin:auto;max-width:300px">
   <input type="text" name="search" placeholder="Enter Product Name">
-  <button type="submit"><i class="fa fa-search"></i></button>
+  <input type="submit"><i class="fa fa-search"></i></input>
 </form>
 <table>
     <tr>
